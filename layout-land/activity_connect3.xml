@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <TableLayout
+      android:id="@+id/tableLayout2"
+      android:layout_width="400dp"
+      android:layout_height="400dp"
+      android:background="#3F51B5"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <Button
+          android:id="@+id/btnconnect00"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect01"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect02"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect03"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect04"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <Button
+          android:id="@+id/btnconnect10"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect11"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect12"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect13"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect14"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <Button
+          android:id="@+id/btnconnect20"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect21"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect22"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect23"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect24"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <Button
+          android:id="@+id/btnconnect30"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect31"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect32"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect33"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect34"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <Button
+          android:id="@+id/btnconnect40"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect41"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect42"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect43"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+
+      <Button
+          android:id="@+id/btnconnect44"
+          android:layout_width="70dp"
+          android:layout_height="70dp"
+          android:layout_margin="5dp"
+          android:background="@drawable/roundedbutton" />
+    </TableRow>
+  </TableLayout>
+
+  <TextView
+      android:id="@+id/textView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Player 1's Turn"
+      android:textSize="24sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toStartOf="@+id/tableLayout2"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.398" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="close">Close</string>
+    <string name="changeBG">Change BG</string>
+    <string name="changeButtonBG">Change Button BG</string>
+    <string name="toast">Toast</string>
+    <string name="disappear">Disappear</string>
+</resources>
