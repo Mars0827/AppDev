@@ -3,7 +3,6 @@ package com.example.myapplication;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.Drawable;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     Button disapper;
     Button connect;
 
-    Button calculator;
+    Button calculator , menus;
 
     private View mainActivity;
     private int backgroundColor;
@@ -111,6 +110,27 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(
                         getApplicationContext(),Calculator.class);
+                startActivity(intent);
+            }
+        });
+
+        Button pass = findViewById(R.id.btnPassingIntent);
+        pass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(
+                        getApplicationContext(), PassingIntentsExercise.class);
+                startActivity(intent);
+            }
+        });
+
+
+        menus = findViewById(R.id.btnMenus);
+        menus.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(
+                        getApplicationContext(), MenuExercise.class);
                 startActivity(intent);
             }
         });
